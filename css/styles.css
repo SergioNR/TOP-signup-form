@@ -1,0 +1,130 @@
+html {
+    height: 100%;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    display: flex;
+    height: 100vh;
+}
+
+.left-section {
+    min-width: 40%;
+    background-image: url(/media/image.jpg);
+}
+
+.logo-container {
+    background-color: rgb(0, 0, 0, 0.5);
+    color: white;
+    margin-top: 300px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-container h1 {
+    font-size: 100px;
+    padding: 0px;
+}
+
+.logo-container img {
+    width: 100px;
+    height: auto;
+    margin-right: 10px;
+
+}
+
+.right-section {
+    background-color: lightgray;
+    width: 60%;
+}
+
+.upper-text {
+    margin-top: 250px;
+    padding-left: 36px;
+    margin-bottom: 65px;
+    font-size: 24px;
+    font-weight: bold;
+    max-width: 750px;
+}
+
+.upper-text span {
+    font-style: italic;
+}
+
+.form-container {
+    background-color: white;
+    box-shadow: 0px 4px 10px rgba(128, 128, 128, 0.59);
+    padding-top: 8px;
+    padding-left: 36px;
+    height: 25%;
+}
+
+.form-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.login-form {
+    display: flex;
+    gap: 64px;
+}
+
+.form-left-side, .form-right-side {
+    height: 200px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+/* ! need to add default grey border */
+input {
+    border: #8a8686 1px solid;
+    border-radius: 4px;
+    height: 25px;
+
+
+}
+
+input:valid {
+    border: 1px solid green;
+} 
+
+input:invalid {
+    border: 1px solid red;
+}
+
+input:focus {
+    outline: none;
+    border: 2px solid blue;
+}
+
+.lower-text {
+    margin-top: 32px;
+    margin-left:36px;
+}
+
+.submit-button {
+    background-color: #596D48;
+    color: white;
+    padding: 16px 64px 16px 64px;
+    border: 0px;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.lower-text p {
+    margin-top: 32px;
+    font-weight: bold;
+}
+
+.lower-text a {
+    color: #596D48;
+    text-decoration: none;
+    font-weight: bold;
+}
